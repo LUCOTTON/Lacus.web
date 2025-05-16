@@ -1,0 +1,106 @@
+body {
+  font-family: 'Georgia', serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f3ed;
+  color: #2e2b27;
+}
+
+
+header {
+  background-color: #3e3e3e;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.encabezado {
+  position: relative;
+  background-image: url('pics/Banner3.jpg'); /* ruta de tu imagen */
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  color: white;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.encabezado .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3); /* Overlay oscuro */
+  z-index: 1;
+}
+
+.contenido-header {
+  position: relative;
+  z-index: 2; /* El texto va encima del overlay */
+}
+
+.contenido-header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.contenido-header p {
+  font-size: 1.2em;
+}
+
+.boton {
+  display: inline-block;
+  padding: 10px 20px;
+  color: burlywood;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.boton:hover {
+  background-color: #f5f3ed;
+}
+
+.boton:active {
+  background-color: #f5f3ed;
+  transform: scale(0.98);
+}
+
+.boton:visited {
+  color: burlywood; 
+  background-color: #f5f3ed;
+}
+
+nav {
+  background-color: #6b4c3b;
+  padding: 20px;
+  text-align: center;
+}
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+.section h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+footer {
+  background-color: #3e3e3e;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+
+
